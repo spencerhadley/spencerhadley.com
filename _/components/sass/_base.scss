@@ -1,0 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Bilbo|Amatic+SC|Annie+Use+Your+Telescope|Zeyada);
+
+body {
+	background-color: darken($paleyellow, 50);
+	color: $blue;
+	font-family: /*$font-primary,*/ $font-secondary, $font-third, $font-fourth;
+	font-size: 3rem;
+	@include text-shadow(lighten($paleyellow, 20) 1px 1px)
+}
+
+a {
+	color: $red;
+}
