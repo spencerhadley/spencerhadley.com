@@ -4,14 +4,13 @@ body {
 	background-color: $pagewhite;
 	color: $blue;
 	font-family: $font-2;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 header {
 	background-image: url("../../images/peak2.svg");
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 95%;
+	font-size: 3rem;
 }
 
 a {
@@ -25,9 +24,14 @@ a {
 
 }
 
+.navigation {
+	background-color: rgba(255,0,0,0.1);
+
+}
+
 img {
 	display: block;
-	max-width: 100%;
+	max-width: 95%;
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;
@@ -35,5 +39,7 @@ img {
 }
 
 footer {
+	font-size: 0.4em;
 	float: right;
+	padding: 2px;
 }

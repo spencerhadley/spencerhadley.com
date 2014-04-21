@@ -1,6 +1,19 @@
+//Susy setup -----------------------------
+$total-columns 			:12;
+$column-width 			:4em;
+$gutter-width  			:1em;
+$grid-padding   		:$gutter-width;
+@include border-box-sizing;
+
+$small 					: 30em;
+$medium 				: 47em;
+$large 					: 75em;
+
 //header ---------------------------------
 
 header {
+	background-position: center;
+	background-size: 100% 95%;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	margin-bottom: 10px;
@@ -12,10 +25,15 @@ header {
 //navigation -----------------------------
 
 .navigation {
-	background-color: rgba(255,0,0,0.1);
 	ul.nav {
 		li {
 			text-align: center;
 		}
 	}
+}
+
+//footer --------------------------------
+footer {
+	margin-bottom: 50px;
+	margin-right: 20px;
 }
