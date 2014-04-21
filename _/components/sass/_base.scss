@@ -1,13 +1,39 @@
 @import url(http://fonts.googleapis.com/css?family=Bilbo|Amatic+SC|Annie+Use+Your+Telescope|Zeyada);
 
 body {
-	background-color: darken($paleyellow, 50);
+	background-color: $pagewhite;
 	color: $blue;
-	font-family: /*$font-primary,*/ $font-secondary, $font-third, $font-fourth;
+	font-family: $font-2;
 	font-size: 3rem;
-	@include text-shadow(lighten($paleyellow, 20) 1px 1px)
+}
+
+header {
+	background-image: url("../../images/peak2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 95%;
 }
 
 a {
 	color: $red;
+	text-decoration: none;
+}
+
+.content a {
+	@include text-shadow(lighten($paleyellow, 20) 1px 1px);	
+	color: $darkerblue;
+
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+}
+
+footer {
+	float: right;
 }
