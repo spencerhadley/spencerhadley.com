@@ -11,7 +11,7 @@ $large 					: 75em;
 
 //body -----------------------------------
 body {
-	line-height:110%;
+	line-height:100%;
 }
 
 //header ---------------------------------
@@ -68,8 +68,6 @@ img {
 //footer --------------------------------
 
 footer {
-	background: $red;
-	position:absolute;
 	font-size: 0.4em;
 	float: right;
 }
