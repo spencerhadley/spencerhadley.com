@@ -3,11 +3,16 @@ $total-columns 			:12;
 $column-width 			:4em;
 $gutter-width  			:1em;
 $grid-padding   		:$gutter-width;
-@include border-box-sizing;
 
 $small 					: 30em;
 $medium 				: 47em;
 $large 					: 75em;
+
+
+//body -----------------------------------
+body {
+	line-height:110%;
+}
 
 //header ---------------------------------
 
@@ -36,21 +41,35 @@ header {
 				padding: .2em 1.2em;
 			}
 		}
-
-	    /*list-style:none;
-	    position:relative;
-	    text-align: center;
-	    @include horizontal-list;
-	    left:50%;*/
 	}
 }
 
 //content -------------------------------
 
+.layout {
+	@include container;
+	padding: 3%;
+}
 
+img {
+	display: block;
+	max-width: 95%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+}
+
+.inventories {
+	margin-left: 8%;
+	margin-top: 5%;
+}
 
 //footer --------------------------------
+
 footer {
-	margin-bottom: 50px;
-	margin-right: 20px;
+	background: $red;
+	position:absolute;
+	font-size: 0.4em;
+	float: right;
 }
