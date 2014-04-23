@@ -4,18 +4,38 @@ body {
 	background-color: $pagewhite;
 	color: $blue;
 	font-family: $font-2;
-	font-size: 2rem;
+	font-size: 3rem;
+	line-height:120%;
 }
 
 header {
 	background-image: url("../../images/peak2.svg");
-	background-repeat: no-repeat;
 	font-size: 3rem;
+	.navigation {
+		.layout {
+			.nav {
+				a {
+					@include border-radius(50px, 50px);
+				}
+			}
+		}
+	}
 }
 
 a {
 	color: $red;
 	text-decoration: none;
+	&:hover {
+		background: rgba(100,30,42,0.1);
+		padding:clear;
+		top: 0;
+		width: 100px;
+		border: 10px;
+		@include border-radius(10px,10px);
+		a {
+			color:lighten($yellow,30);
+		}
+	}
 }
 
 .content a {
@@ -36,6 +56,11 @@ img {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 5px;
+}
+
+.inventories {
+	margin-left: 8%;
+	margin-top: 5%;
 }
 
 footer {

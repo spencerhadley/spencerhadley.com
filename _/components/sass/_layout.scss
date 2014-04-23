@@ -12,25 +12,42 @@ $large 					: 75em;
 //header ---------------------------------
 
 header {
+	display:block;
 	background-position: center;
-	background-size: 100% 95%;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	margin-bottom: 10px;
+	background-size: 100% 100%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	margin-bottom: 5px;
 	horizontal-postion: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
-//navigation -----------------------------
-
 .navigation {
-	ul.nav {
+	 ul{
+	 	margin: 0;
+	 	padding: 0;
+		list-style-type: none;
+		text-align: center;
 		li {
-			text-align: center;
+			display: inline;
+			a {
+				text-decoration: none;
+				padding: .2em 1.2em;
+			}
 		}
+
+	    /*list-style:none;
+	    position:relative;
+	    text-align: center;
+	    @include horizontal-list;
+	    left:50%;*/
 	}
 }
+
+//content -------------------------------
+
+
 
 //footer --------------------------------
 footer {
