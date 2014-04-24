@@ -15,41 +15,40 @@
   </head>
 
   <body>
+	<div class="wrapper">
+		<header>
+			<div class="navigation">
+				<section class="layout" class="center">
+					<ul class="nav" >
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="photos.html">Photos</a></li>
+						<li><a href="sculptures.html">Sculptures</a></li>
+						<li><a href="drawings.html">Drawings</a></li>
+					</ul> <!-- nav -->
+				</section> <!-- layout -->
+			</div> <!-- navigation -->
+		</header>
 
-	<header>
-		<div class="navigation">
-			<section class="layout" class="center">
-				<ul class="nav" >
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="photos.html">Photos</a></li>
-					<li><a href="sculptures.html">Sculptures</a></li>
-					<li><a href="drawings.html">Drawings</a></li>
-				</ul> <!-- nav -->
+		<div class="content">
+			<section class="layout">
+				<ul class="permaculture" style="list-style-type:circle;">
+				<li><a href="https://www.permaculture.org.uk/principle/1-observe-and-interact">Observe and Interact</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/2-catch-and-store-energy">Catch and store energy</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/3-obtain-yield">Obtain a yield</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/4-apply-self-regulation-and-accept-feedback">Apply self regulation and accept feedback</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/5-use-and-value-renewable-resources-and-services">Use and value renewable resources and services</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/6-produce-no-waste">Produce no waste</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/7-design-patterns-details">Design from patterns to details</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/8-integrate-rather-segregate">Integrate rather than segregate</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/9-use-small-and-slow-solutions">Use small and slow solutions</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/10-use-and-value-diversity">Use and value diversity</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/11-use-edges-and-value-marginal">Use edges and value the marginal</a></li>
+				<li><a href="https://www.permaculture.org.uk/principle/12-creatively-use-and-respond-change">Creatively use and respond to change</a></li>
+				</ul>
 			</section> <!-- layout -->
-		</div> <!-- navigation -->
-	</header>
-
-
-	<div class="content">
-		<section class="layout">
-			<ul class="permaculture">
-			<li><a href="https://www.permaculture.org.uk/principle/1-observe-and-interact"></a>Observe and Interact</li>
-			<li><a href="https://www.permaculture.org.uk/principle/2-catch-and-store-energy"></a>Catch and store energy</li>
-			<li><a href="https://www.permaculture.org.uk/principle/3-obtain-yield"></a>Obtain a yield</li>
-			<li><a href="https://www.permaculture.org.uk/principle/4-apply-self-regulation-and-accept-feedback"></a>Apply self regulation and accept feedback</li>
-			<li><a href="https://www.permaculture.org.uk/principle/5-use-and-value-renewable-resources-and-services"></a>Use and value renewable resources and services</li>
-			<li><a href="https://www.permaculture.org.uk/principle/6-produce-no-waste"></a>Produce no waste</li>
-			<li><a href="https://www.permaculture.org.uk/principle/7-design-patterns-details"></a>Design from patterns to details</li>
-			<li><a href="https://www.permaculture.org.uk/principle/8-integrate-rather-segregate"></a>Integrate rather than segregate</li>
-			<li><a href="https://www.permaculture.org.uk/principle/9-use-small-and-slow-solutions"></a>Use small and slow solutions</li>
-			<li><a href="https://www.permaculture.org.uk/principle/10-use-and-value-diversity"></a>Use and value diversity</li>
-			<li><a href="https://www.permaculture.org.uk/principle/11-use-edges-and-value-marginal"></a>Use edges and value the marginal</li>
-			<li><a href="https://www.permaculture.org.uk/principle/12-creatively-use-and-respond-change"></a>Creatively use and respond to change</li>
-
-			</ul>
-		</section> <!-- layout -->
-	</div> <!-- content -->
-
+		</div> <!-- content -->
+		<div id="footer_layout"></div>
+	</div> <!-- wrapper -->
 	<footer>
 		<section class="layout">
 			<div class="copyright">
@@ -58,17 +57,19 @@
 		</section> <!-- layout -->
 	</footer>
 
-	<script src="../_/js/script.js"></script>
-	<script src="http://localhost:35729/livereload.js"></script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<div id="scripts">
+		<script src="../_/js/script.js"></script>
+		<script src="http://localhost:35729/livereload.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-50287632-1', 'spencerhadley.com');
-  ga('send', 'pageview');
+		  ga('create', 'UA-50287632-1', 'spencerhadley.com');
+		  ga('send', 'pageview');
 
-</script>
+		</script>
+	</div> <!-- scripts -->
   </body>
 </html>

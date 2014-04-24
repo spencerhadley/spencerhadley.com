@@ -8,11 +8,7 @@ $small 					: 30em;
 $medium 				: 47em;
 $large 					: 75em;
 
-
-//body -----------------------------------
-body {
-	line-height:100%;
-}
+@include sticky-footer(5px, ".wrapper", "#layout_footer","footer");
 
 //header ---------------------------------
 
@@ -26,6 +22,11 @@ header {
 	horizontal-postion: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	height: background-image;
+}
+
+.wrapper {
+	height: 100%;
 }
 
 .navigation {
@@ -46,11 +47,6 @@ header {
 
 //content -------------------------------
 
-.layout {
-	@include container;
-	padding: 3%;
-}
-
 img {
 	display: block;
 	max-width: 95%;
@@ -63,6 +59,12 @@ img {
 .inventories {
 	margin-left: 8%;
 	margin-top: 5%;
+	padding: 15px;
+}
+
+.permaculture {
+	padding-left: 10%;
+	line-height: 120%;
 }
 
 //footer --------------------------------
@@ -70,4 +72,5 @@ img {
 footer {
 	font-size: 0.4em;
 	float: right;
+	top: 100px;
 }
