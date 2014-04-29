@@ -1,1 +1,1 @@
-function test(){return"hi there"}function other(){return"howdy"}
+$(document).ready(function(){$("#viewer_controls").on("click","span",function(){$("#viewer img").removeClass("opaque");var a=$(this).index();$("#viewer img").eq(a).addClass("opaque"),$("#viewer_controls span").removeClass("selected"),$(this).addClass("selected")})});

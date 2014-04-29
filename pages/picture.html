@@ -5,13 +5,13 @@
 		<title></title>
 	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-	   	<link href="../_/css/screen.css" 	media="screen, projection" 	rel="stylesheet" type="text/css"/>
-	    <link href="../_/css/print.css" 	media="print" 				rel="stylesheet" type="text/css"/>    
+	   	<link href="/_/css/screen.css" 	media="screen, projection" 	rel="stylesheet" type="text/css"/>
+	    <link href="/_/css/print.css" 	media="print" 				rel="stylesheet" type="text/css"/>    
 	    <!--[if IE]>        
-	    <link href="/stylesheets/ie.css" 		media="screen, projection" 	rel="stylesheet" type="text/css" />    
+	    <link href="/_/css/ie.css" 		media="screen, projection" 	rel="stylesheet" type="text/css" />    
 	    <![endif]-->  
-	    <link rel="shortcut icon" href="icon32.jpg" type="image/x-icon">
-		<link rel="icon" href="icon32.jpg" type="image/x-icon">
+	    <link rel="shortcut icon" href="/icon32.jpg" type="image/x-icon">
+		<link rel="icon" href="/icon32.jpg" type="image/x-icon">
   </head>
 
   <body>
@@ -20,10 +20,10 @@
 		<div class="navigation">
 			<section class="layout" class="center">
 				<ul class="nav" >
-					<li><a href="pages/photos.html">Photos</a></li>
-					<li><a href="pages/sculptures.html">・Sculptures・</a></li>
-					<li><a href="pages/drawings.html">・Drawings・</a></li>
-					<li><a href="pages/inventories.html">Inventories</a></li>
+					<li><a href="/pages/photos.html">Photos</a></li>
+					<li><a href="/pages/sculptures.html">・Sculptures・</a></li>
+					<li><a href="/pages/drawings.html">・Drawings・</a></li>
+					<li><a href="/pages/inventories.html">Inventories</a></li>
 				</ul> <!-- nav -->
 			</section> <!-- layout -->
 		</div> <!-- navigation -->
@@ -36,16 +36,25 @@
 	</div> <!-- content -->
 
 	<footer>
-		<a href="index.html">
 		<section class="layout">
 			<div class="copyright">
 				<span class="title">copyright 2014</span>
 			</div> <!-- copyright -->
 		</section> <!-- layout -->
-		</a>
 	</footer>
 
-	<script src="_/js/script.js"></script>
-	<script src="http://localhost:35729/livereload.js"></script>
+	<div class="scripts">
+		<script src="/_/js/script.js"></script>
+		<script src="http://localhost:35729/livereload.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-50287632-1', 'spencerhadley.com');
+		  ga('send', 'pageview');
+		</script> <!-- Google Analytics -->
+	</div> <!-- scripts -->
+
   </body>
 </html>

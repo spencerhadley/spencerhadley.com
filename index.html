@@ -3,17 +3,17 @@
   <head>
 		<meta charset="utf-8">
 		<title>Spencer Hadley</title>
-	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	  	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+	  	<!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
 
 	   	<link href="_/css/screen.css" 	media="screen, projection" 	rel="stylesheet" type="text/css"/>
 	    <link href="_/css/print.css" 	media="print" 				rel="stylesheet" type="text/css"/>    
 	    <!--[if IE]>        
-	    <link href="/stylesheets/ie.css" 		media="screen, projection" 	rel="stylesheet" type="text/css" />    
+	    <link href="_/css/ie.css" 		media="screen, projection" 	rel="stylesheet" type="text/css" />    
 	    <![endif]-->  
 	    <link rel="shortcut icon" href="icon32.jpg" type="image/x-icon">
 		<link rel="icon" href="icon32.jpg" type="image/x-icon">
   </head>
-
 
   <body>
   	<div class="wrapper">
@@ -30,27 +30,35 @@
 			</div> <!-- navigation -->
 		</header>
 
-		<div class="content">
-			<section class="layout">
-				<div class="images"><a href="images/Amgen_couple.jpg"><img src="images/Amgen_couple.jpg" alt="Amgen couple"></a></div>
-				<div class="images"><a href="images/dry_creek.jpg"><img src="images/dry_creek.jpg" alt=""></a></div>
-				<div class="images"><a href="images/paper_package.jpg"><img src="images/paper_package.jpg" alt=""></a></div>
-				<div class="images"><a href="images/expecting.jpg"><img src="images/expecting.jpg" alt=""></a></div>
-				<div class="images"><a href="images/wedding_invitation.jpg"><img src="images/wedding_invitation.jpg" alt=""></a></div>
-			</section> <!-- layout -->
-		</div> <!-- content -->
+
+		<div id="viewer" class="shadow">
+			  <img class='opaque' src="images/Amgen_couple.jpg" />
+			  <img src="images/dry_creek.jpg" />
+			  <img src="images/paper_package.jpg" />
+			  <img src="images/expecting.jpg" />
+		</div>
+		<p id="viewer_controls">
+			  <span class="selected">Image 1</span>
+			  <span>Image 2</span>
+			  <span>Image 3</span>
+			  <span>Image 8</span>
+		</p>
+
 		<div id="layout_footer"></div>
 	</div> <!-- wrapper -->
+
 
 	<footer>
 		<section class="layout">
 			<div class="copyright">
-				<span class="title">copyright 2014</span>
+				<span>copyright 2014</span>
 			</div> <!-- copyright -->	
 		</section> <!-- layout -->
 	</footer>
 
+
 	<div class="scripts">
+		<script src="jquery.js"></script>
 		<script src="_/js/script.js"></script>
 		<script src="http://localhost:35729/livereload.js"></script>
 		<script>
