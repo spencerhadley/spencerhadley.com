@@ -1,3 +1,13 @@
+//Susy setup -----------------------------
+$total-columns 			:12;
+$column-width 			:4em;
+$gutter-width  			:1em;
+$grid-padding   		:$gutter-width;
+
+$small 					: 30em;
+$medium 				: 47em;
+$large 					: 75em;
+
 @include sticky-footer(5px, ".wrapper", "#layout_footer","footer");
 
 //header ---------------------------------
@@ -29,7 +39,7 @@ header {
 			display: inline;
 			a {
 				text-decoration: none;
-				padding: .02em .2em;
+				padding: .2em 1.2em;
 			}
 		}
 	}

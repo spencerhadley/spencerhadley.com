@@ -7,7 +7,7 @@ body {
 }
 
 header {
-	background-image: url("../../images/peak2.svg");
+	background-image: url("/images/peak2.svg");
 	font-size: 3rem;
 	.navigation {
 		.layout {
@@ -56,46 +56,4 @@ a {
 
 ul {
 	list-style-type:square;
-}
-
-/* Picture display from css3.bradshawenterprises.com/cfimg/#cfimg7 Demo 6 -------------------*/
-
-p#viewer_controls {
-  text-align:center;
-}
-
-
-#viewer_controls span {
-  padding-right:1em;
-  cursor:pointer;
-  white-space:nowrap;
-  font-size: .5em;
-}
-
-.selected {
-  	text-decoration: underline;
- }
-
-#viewer {
-  position:relative;
-  height:281px;
-  width:400px;
-  margin:0 auto 10px;
-}
-#viewer img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  opacity:0;
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-}
-
-#viewer img.opaque {
-  opacity:1;
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=1);
 }
