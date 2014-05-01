@@ -1,4 +1,6 @@
 spencerhadley.com
 =================
 
-repo of my personal website
+My Personal Website
+
+Built with Compass

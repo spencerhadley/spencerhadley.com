@@ -63,6 +63,10 @@ ul {
 p#viewer_controls {
   text-align:center;
 }
+
+$h1-size: 36px;
+$breakpoint: 500px;
+
 #viewer_controls span {
   padding-right:1em;
   cursor:pointer;
