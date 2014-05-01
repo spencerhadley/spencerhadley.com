@@ -64,9 +64,15 @@ p#viewer_controls {
   text-align:center;
 }
 #viewer_controls span {
-  padding-right:2em;
+  padding-right:1em;
   cursor:pointer;
+  white-space:nowrap;
 }
+
+.selected {
+  	text-decoration: underline;
+ }
+
 #viewer {
   position:relative;
   height:281px;
