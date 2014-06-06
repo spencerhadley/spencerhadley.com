@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+//Susy setup -----------------------------
+$total-columns 			:12;
+$column-width 			:4em;
+$gutter-width  			:1em;
+$grid-padding   		:$gutter-width;
+
+$small 					: 30em;
+$medium 				: 47em;
+$large 					: 75em;
+
+=======
+>>>>>>> ea9b66b20011a9bb28991ebdef5fe0d129e4a53f
 @include sticky-footer(5px, ".wrapper", "#layout_footer","footer");
 
 //header ---------------------------------
@@ -12,7 +25,10 @@ header {
 	horizontal-postion: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
+<<<<<<< HEAD
+=======
 	height: background-image;
+>>>>>>> ea9b66b20011a9bb28991ebdef5fe0d129e4a53f
 }
 
 .wrapper {
@@ -29,7 +45,11 @@ header {
 			display: inline;
 			a {
 				text-decoration: none;
+<<<<<<< HEAD
+				padding: .2em 1.2em;
+=======
 				padding: .02em .2em;
+>>>>>>> ea9b66b20011a9bb28991ebdef5fe0d129e4a53f
 			}
 		}
 	}
@@ -41,6 +61,7 @@ img {
 	display: block;
 	max-width: 95%;
 	height: auto;
+<<<<<<< HEAD
 	width: auto;
 	margin-right: auto;
 	margin-left: auto;
@@ -53,6 +74,11 @@ img {
 		margin-left: auto;
 		padding: 5px;
 	}
+=======
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+>>>>>>> ea9b66b20011a9bb28991ebdef5fe0d129e4a53f
 }
 
 .inventories {
@@ -68,6 +94,7 @@ img {
 
 //footer --------------------------------
 
+<<<<<<< HEAD
 #copyright {
 	font-size: 0.4em;
 	float: right;
@@ -88,3 +115,10 @@ img {
 		}
 	}
 }
+=======
+footer {
+	font-size: 0.4em;
+	float: right;
+	top: 100px;
+}
+>>>>>>> ea9b66b20011a9bb28991ebdef5fe0d129e4a53f

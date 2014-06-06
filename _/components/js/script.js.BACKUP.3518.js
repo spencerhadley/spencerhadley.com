@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+// function test() {
+// 	return "hi there";
+// }
+=======
 $(document).ready(function() {
   $("#viewer_controls").on('click', 'span', function() {
     $("#viewer img").removeClass("opaque");
@@ -10,3 +15,4 @@ $(document).ready(function() {
     $(this).addClass("selected");
   });
 });
+>>>>>>> ea9b66b20011a9bb28991ebdef5fe0d129e4a53f
